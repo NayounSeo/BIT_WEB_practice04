@@ -2,13 +2,12 @@ package prob4;
 
 public class MusicPhone extends Phone {
 	
-	@Override
 	public void execute ( String function ) {
+		//이 구현 좀 신기해요!!!**********************************
 		if ( function.equals("음악") ) {
 			playMusic();
 			return;
 		}
-		
 		super.execute( function );
 	}
 
